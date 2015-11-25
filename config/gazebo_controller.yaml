@@ -1,96 +1,27 @@
 S1_position_controller:
-  type: sr_mechanism_controllers/SrhJointPositionController
+  type: position_controllers/JointPositionController
   joint: S1
-  pid:
-    p: 50.0
-    deadband: 0.0
-    friction_deadband: 2000.0
-    i: 5.0
-    d: 50.0
-    max_force: 100.0
-    i_clamp: 100.0
-    position_deadband: 0.014999999999999999
 
 S2_position_controller:
-  type: sr_mechanism_controllers/SrhJointPositionController
+  type: position_controllers/JointPositionController
   joint: S2
-  pid:
-    p: 50.0
-    deadband: 0.0
-    friction_deadband: 2000.0
-    i: 5.0
-    d: 50.0
-    max_force: 100.0
-    i_clamp: 100.0
-    position_deadband: 0.014999999999999999
-
 
 S3_position_controller:
-  type: sr_mechanism_controllers/SrhJointPositionController
+  type: position_controllers/JointPositionController
   joint: S3
-  pid:
-    p: 50.0
-    deadband: 0.0
-    friction_deadband: 2000.0
-    i: 5.0
-    d: 50.0
-    max_force: 100.0
-    i_clamp: 100.0
-    position_deadband: 0.014999999999999999
-
 
 E1_position_controller:
-  type: sr_mechanism_controllers/SrhJointPositionController
+  type: position_controllers/JointPositionController
   joint: E1
-  pid:
-    p: 50.0
-    deadband: 0.0
-    friction_deadband: 2000.0
-    i: 5.0
-    d: 50.0
-    max_force: 100.0
-    i_clamp: 100.0
-    position_deadband: 0.014999999999999999
-
 
 E2_position_controller:
-  type: sr_mechanism_controllers/SrhJointPositionController
+  type: position_controllers/JointPositionController
   joint: E2
-  pid:
-    p: 50.0
-    deadband: 0.0
-    friction_deadband: 2000.0
-    i: 5.0
-    d: 50.0
-    max_force: 100.0
-    i_clamp: 100.0
-    position_deadband: 0.014999999999999999
-
 
 W1_position_controller:
-  type: sr_mechanism_controllers/SrhJointPositionController
+  type: position_controllers/JointPositionController
   joint: W1
-  pid:
-    p: 50.0
-    deadband: 0.0
-    friction_deadband: 2000.0
-    i: 5.0
-    d: 50.0
-    max_force: 100.0
-    i_clamp: 100.0
-    position_deadband: 0.014999999999999999
-
 
 W2_position_controller:
-  type: sr_mechanism_controllers/SrhJointPositionController
+  type: position_controllers/JointPositionController
   joint: W2
-  pid:
-    p: 50.0
-    deadband: 0.0
-    friction_deadband: 2000.0
-    i: 5.0
-    d: 50.0
-    max_force: 100.0
-    i_clamp: 100.0
-    position_deadband: 0.014999999999999999
-
