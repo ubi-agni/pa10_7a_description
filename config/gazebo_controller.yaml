@@ -25,3 +25,25 @@ W1_position_controller:
 W2_position_controller:
   type: position_controllers/JointPositionController
   joint: W2
+
+trajectory_controller:
+  type: "position_controllers/JointTrajectoryController"
+  joints:
+    - S1
+    - S2
+    - S3
+    - E1
+    - E2
+    - W1
+    - W2
+  constraints:
+      goal_time: 0.6
+      stopped_velocity_tolerance: 0.05
+      S1: {trajectory: 0.9, goal: 0.4}
+      S2: {trajectory: 0.9, goal: 0.4}
+      S3: {trajectory: 0.9, goal: 0.4}
+      E1: {trajectory: 0.9, goal: 0.4}
+      E2: {trajectory: 0.9, goal: 0.4}
+      W1: {trajectory: 0.9, goal: 0.4}
+      W2: {trajectory: 0.9, goal: 0.4}
+  stop_trajectory_duration: 0.5
