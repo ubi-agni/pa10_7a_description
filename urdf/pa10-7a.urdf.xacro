@@ -384,7 +384,7 @@
     <limit lower="${-359/180*pi}" upper="${359/180*pi}" effort="100" velocity="6.28" />
     <dynamics damping="0.2" friction="0" />
   </joint>
-  <gazebo reference="${name}W1">
+  <gazebo reference="${name}W2">
     <provideFeedback>1</provideFeedback>
     <implicitSpringDamper>1</implicitSpringDamper>
   </gazebo>
